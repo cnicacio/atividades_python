@@ -19,7 +19,11 @@ for j, n in enumerate(jogo): # para j
    
 # sample não permite repetição de valores!!!!!
 
-# ALTERNATIVA
+''' 
+
+ALTERNATIVA
 
 for j in range(n):
-    print(jogo[j])
+    print(f'{j+1}° jogo - {jogo[a]}')
+    
+'''
