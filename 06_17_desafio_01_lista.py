@@ -14,5 +14,5 @@ for i in range(n):
     if jogos not in jogo:
         jogo.append(jogos)
 
-for j, n in enumerate(jogo): # para j 
+for j, n in enumerate(jogo): # enumera os jogos e as listas criadas para cada jogo
     print(f'Jogo {j+1} - {n}')
