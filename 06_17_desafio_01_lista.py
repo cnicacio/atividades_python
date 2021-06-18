@@ -16,5 +16,10 @@ for i in range(n):
 
 for j, n in enumerate(jogo): # para j 
     print(f'Jogo {j+1} - {n}')
-    
- # sample não permite repetição de valores!!!!!
+   
+# sample não permite repetição de valores!!!!!
+
+# ALTERNATIVA
+
+for j in range(n):
+    print(jogo[j])
