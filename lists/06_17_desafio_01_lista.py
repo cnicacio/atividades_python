@@ -12,29 +12,16 @@ n = int(input('Digite o número de jogos desejados: '))
 for i in range(n):
     jogos  = sample(range(1,60), 6) # sample define o número de vezes que o número range(1,60) é inserido
     if jogos not in jogo:
-        jogos.sort()
         jogo.append(jogos)
-    
-for j, n in enumerate(jogo): # enumera os jogos e as listas criadas para cada jogo
+
+for j, n in enumerate(jogo): # para j 
     print(f'Jogo {j+1} - {n}')
+   
+# sample não permite repetição de valores!!!!!
 
+''' 
+ALTERNATIVA
 
-# from random import randint
-# from time import sleep
-
-# apostas = list()
-# quant = int(input('Quantos jogos você quer fazer? '))
-
-# for c in range(6):
-#     lista_temp = list()
-#     num = randint(1,60)
-#     if num not in lista_temp:
-#         lista_temp.append(num)
-
-#     apostas.append(lista_temp[:])
-
-# print(f'\n----- {quant} jogos sendo sorteados -----\n')
-
-# for i, c in enumerate(apostas):
-#     print(f'O {i+1}° jogo sorteado foi: {c}')
-#     sleep(1)
+for j in range(n):
+    print(f'{j+1}° jogo - {jogo[a]}')
+'''
