@@ -9,7 +9,7 @@ aluno = dict()
 alunos = list() # lista que receberá os dicionários correspondentes a cada aluno inserido
 notas = list() # extrair as notas de cada pessoa
 
-for i in range(15):
+for i in range(1):
 
     aluno['Nome'] = str(input('Digite o nome completo dx alunx: ')).title()
 
